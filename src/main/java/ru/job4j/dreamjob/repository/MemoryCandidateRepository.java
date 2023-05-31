@@ -8,23 +8,23 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
 
-public class MemoryCandidateRepository implements CandidateRepository{
+public class MemoryCandidateRepository implements CandidateRepository {
     private static final MemoryCandidateRepository INSTANCE = new MemoryCandidateRepository();
     private int nextId = 1;
     private final Map<Integer, Candidate> candidates = new HashMap<>();
 
     public MemoryCandidateRepository() {
-        save(new Candidate(0, "Sergey Bazhukov", "Java Developer",
+        save(new Candidate(1, "Sergey Bazhukov", "Java Developer",
                 LocalDateTime.of(2023, 1, 15, 10, 0)));
-        save(new Candidate(0, "Sergey Bazhukov", "Java Developer",
+        save(new Candidate(2, "Sergey Bazhukov", "Java Developer",
                 LocalDateTime.of(2023, 1, 15, 10, 0)));
-        save(new Candidate(0, "Sergey Bazhukov", "Java Developer",
+        save(new Candidate(3, "Sergey Bazhukov", "Java Developer",
                 LocalDateTime.of(2023, 1, 15, 10, 0)));
-        save(new Candidate(0, "Sergey Bazhukov", "Java Developer",
+        save(new Candidate(4, "Sergey Bazhukov", "Java Developer",
                 LocalDateTime.of(2023, 1, 15, 10, 0)));
-        save(new Candidate(0, "Sergey Bazhukov", "Java Developer",
+        save(new Candidate(5, "Sergey Bazhukov", "Java Developer",
                 LocalDateTime.of(2023, 1, 15, 10, 0)));
-        save(new Candidate(0, "Sergey Bazhukov", "Java Developer",
+        save(new Candidate(6, "Sergey Bazhukov", "Java Developer",
                 LocalDateTime.of(2023, 1, 15, 10, 0)));
     }
 

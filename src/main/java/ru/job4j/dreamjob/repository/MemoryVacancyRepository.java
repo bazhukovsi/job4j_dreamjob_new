@@ -8,23 +8,23 @@ import java.util.HashMap;
 import java.util.Map;
 import java.util.Optional;
 
-public class MemoryVacancyRepository implements VacancyRepository{
+public class MemoryVacancyRepository implements VacancyRepository {
     private static final MemoryVacancyRepository INSTANCE = new MemoryVacancyRepository();
     private int nextId = 1;
     private final Map<Integer, Vacancy> vacancies = new HashMap<>();
 
     private MemoryVacancyRepository() {
-        save(new Vacancy(0, "Intern Java Developer", "Java Developer",
+        save(new Vacancy(1, "Intern Java Developer", "Java Developer",
                 LocalDateTime.of(2023, 1, 15, 10, 0)));
-        save(new Vacancy(0, "Junior Java Developer", "Java Developer",
+        save(new Vacancy(2, "Junior Java Developer", "Java Developer",
                 LocalDateTime.of(2023, 1, 15, 10, 0)));
-        save(new Vacancy(0, "Junior+ Java Developer", "Java Developer",
+        save(new Vacancy(3, "Junior+ Java Developer", "Java Developer",
                 LocalDateTime.of(2023, 1, 15, 10, 0)));
-        save(new Vacancy(0, "Middle Java Developer", "Java Developer",
+        save(new Vacancy(4, "Middle Java Developer", "Java Developer",
                 LocalDateTime.of(2023, 1, 15, 10, 0)));
-        save(new Vacancy(0, "Middle+ Java Developer", "Java Developer",
+        save(new Vacancy(5, "Middle+ Java Developer", "Java Developer",
                 LocalDateTime.of(2023, 1, 15, 10, 0)));
-        save(new Vacancy(0, "Senior Java Developer", "Java Developer",
+        save(new Vacancy(6, "Senior Java Developer", "Java Developer",
                 LocalDateTime.of(2023, 1, 15, 10, 0)));
     }
 

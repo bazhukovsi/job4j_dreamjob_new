@@ -4,15 +4,15 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e45e4151-8133-4c33-ab2d-98bd9316bd54" name="Changes" comment="4. Thymeleaf, Циклы. [#504841]">
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/candidates/create.html" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/vacancies/create.html" afterDir="false" />
+    <list default="true" id="e45e4151-8133-4c33-ab2d-98bd9316bd54" name="Changes" comment="9. HTML form. Создание страницы кандидата [#504845 # [#504845 #297711]]">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/service/CandidateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/service/SimpleCandidateService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/service/SimpleVacancyService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/service/VacancyService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/controller/CandidateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/controller/CandidateController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/controller/VacancyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/controller/VacancyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/candidates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/candidates/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vacancies/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/vacancies/list.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/model/Candidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/model/Candidate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/repository/MemoryCandidateRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/repository/MemoryCandidateRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/repository/MemoryVacancyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/repository/MemoryVacancyRepository.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -98,7 +98,7 @@
       <updated>1685425961659</updated>
       <workItem from="1685425962940" duration="10233000" />
       <workItem from="1685453951069" duration="1779000" />
-      <workItem from="1685516738935" duration="4759000" />
+      <workItem from="1685516738935" duration="7104000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1685426596758</created>
@@ -121,7 +121,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685454598589</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="9. HTML form. Создание страницы кандидата [#504845 # [#504845 #297711]]">
+      <created>1685533403881</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1685533403881</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -142,7 +149,8 @@
     <MESSAGE value="Initial commit" />
     <MESSAGE value="html_content + directory (static(css, images))" />
     <MESSAGE value="4. Thymeleaf, Циклы. [#504841]" />
-    <option name="LAST_COMMIT_MESSAGE" value="4. Thymeleaf, Циклы. [#504841]" />
+    <MESSAGE value="9. HTML form. Создание страницы кандидата [#504845 # [#504845 #297711]]" />
+    <option name="LAST_COMMIT_MESSAGE" value="9. HTML form. Создание страницы кандидата [#504845 # [#504845 #297711]]" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
