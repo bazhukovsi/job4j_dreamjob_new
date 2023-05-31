@@ -5,20 +5,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e45e4151-8133-4c33-ab2d-98bd9316bd54" name="Changes" comment="1. Слоеная архитектура. [#504851 # [#504851 #298861]]">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/model/City.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/repository/CityRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/repository/MemoryCityRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/service/CityService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/service/SimpleCityService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/errors/404.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/vacancies/one.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/controller/CandidateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/controller/CandidateController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/controller/VacancyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/controller/VacancyController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/model/Vacancy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/model/Vacancy.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/repository/MemoryCandidateRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/repository/MemoryCandidateRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/repository/MemoryVacancyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/repository/MemoryVacancyRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/service/SimpleCandidateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/service/SimpleCandidateService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/service/SimpleVacancyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/service/SimpleVacancyService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vacancies/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/vacancies/create.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vacancies/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/vacancies/list.html" afterDir="false" />
     </list>
@@ -50,21 +41,16 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
-    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
-    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
-    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
-    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Projects/job4j_dreamjob_new/src/main/resources/static/images&quot;,
-    &quot;settings.editor.selected.configurable&quot;: &quot;org.infernus.idea.checkstyle.CheckStyleConfigurable&quot;,
-    &quot;spring.configuration.checksum&quot;: &quot;1624d335cf2e88a540090f3014d4a733&quot;
-  }
-}</component>
+  <component name="PropertiesComponent">
+    <property name="RequestMappingsPanelOrder0" value="0" />
+    <property name="RequestMappingsPanelOrder1" value="1" />
+    <property name="RequestMappingsPanelWidth0" value="75" />
+    <property name="RequestMappingsPanelWidth1" value="75" />
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="Errors" />
+  </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Projects\job4j_dreamjob_new\src\main\resources\static\images" />
@@ -77,15 +63,26 @@
     </key>
   </component>
   <component name="RunManager">
+    <configuration default="true" type="JetRunConfigurationType">
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType">
+      <option name="filePath" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="Main" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
       <module name="job4j_dreamjob_new" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.job4j.dreamjob.Main" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="ru.job4j.dreamjob.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="SPRING_BOOT_MAIN_CLASS" value="ru.job4j.dreamjob.Main" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -107,6 +104,7 @@
       <workItem from="1685425962940" duration="10233000" />
       <workItem from="1685453951069" duration="1779000" />
       <workItem from="1685516738935" duration="10840000" />
+      <workItem from="1685549328634" duration="5066000" />
     </task>
     <task id="LOCAL-00001" summary="Initial commit">
       <created>1685426596758</created>
