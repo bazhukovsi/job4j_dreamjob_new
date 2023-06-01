@@ -7,7 +7,7 @@ import ru.job4j.dreamjob.repository.CityRepository;
 import java.util.Collection;
 
 @Service
-public class SimpleCityService implements CityService{
+public class SimpleCityService implements CityService {
     private final CityRepository cityRepository;
 
     public SimpleCityService(CityRepository cityRepository) {

@@ -6,5 +6,6 @@ import java.util.Collection;
 
 public interface CityRepository {
     Collection<City> findAll();
+
     City findById(int id);
 }

@@ -4,36 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="e45e4151-8133-4c33-ab2d-98bd9316bd54" name="Changes" comment="222">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/controller/FileController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/dto/FileDto.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/model/File.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/repository/FileRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/repository/MemoryFileRepository.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/service/FileService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/service/SimpleFileService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/templates/candidates/one.html" afterDir="false" />
+    <list default="true" id="e45e4151-8133-4c33-ab2d-98bd9316bd54" name="Changes" comment="4. Формы. Загрузка файла на сервер. [#504855 # [#504855 #299732]]">
+      <change afterPath="$PROJECT_DIR$/db/scripts/001_ddl_create_cities_table.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/configuration/DatasourceConfiguration.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/controller/CandidateController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/controller/CandidateController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/controller/VacancyController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/controller/VacancyController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/model/Candidate.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/model/Candidate.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/model/Vacancy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/model/Vacancy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/repository/CityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/repository/CityRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/repository/MemoryCandidateRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/repository/MemoryCandidateRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/repository/MemoryCityRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/repository/MemoryCityRepository.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/repository/MemoryVacancyRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/repository/MemoryVacancyRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/repository/FileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/repository/FileRepository.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/repository/MemoryFileRepository.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/repository/MemoryFileRepository.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/service/CandidateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/service/CandidateService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/service/CityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/service/CityService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/service/SimpleCandidateService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/service/SimpleCandidateService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/service/FileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/service/FileService.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/service/SimpleCityService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/service/SimpleCityService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/service/SimpleVacancyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/service/SimpleVacancyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/service/VacancyService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/service/VacancyService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/candidates/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/candidates/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/candidates/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/candidates/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vacancies/create.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/vacancies/create.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vacancies/list.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/vacancies/list.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/templates/vacancies/one.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/templates/vacancies/one.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/service/SimpleFileService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/job4j/dreamjob/service/SimpleFileService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -77,6 +61,11 @@
     "nodejs_package_manager_path": "npm",
     "settings.editor.selected.configurable": "Errors",
     "spring.configuration.checksum": "1624d335cf2e88a540090f3014d4a733"
+  },
+  "keyToStringList": {
+    "DatabaseDriversLRU": [
+      "postgresql"
+    ]
   }
 }]]></component>
   <component name="RecentsManager">
@@ -157,7 +146,14 @@
       <option name="project" value="LOCAL" />
       <updated>1685535573235</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="4. Формы. Загрузка файла на сервер. [#504855 # [#504855 #299732]]">
+      <created>1685622966625</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1685622966625</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -180,7 +176,8 @@
     <MESSAGE value="4. Thymeleaf, Циклы. [#504841]" />
     <MESSAGE value="9. HTML form. Создание страницы кандидата [#504845 # [#504845 #297711]]" />
     <MESSAGE value="1. Слоеная архитектура. [#504851 # [#504851 #298861]]" />
-    <option name="LAST_COMMIT_MESSAGE" value="1. Слоеная архитектура. [#504851 # [#504851 #298861]]" />
+    <MESSAGE value="4. Формы. Загрузка файла на сервер. [#504855 # [#504855 #299732]]" />
+    <option name="LAST_COMMIT_MESSAGE" value="4. Формы. Загрузка файла на сервер. [#504855 # [#504855 #299732]]" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

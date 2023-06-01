@@ -9,7 +9,7 @@ import java.util.concurrent.ConcurrentHashMap;
 import java.util.concurrent.atomic.AtomicInteger;
 
 @Repository
-public class MemoryFileRepository implements FileRepository{
+public class MemoryFileRepository implements FileRepository {
     private final AtomicInteger nextId = new AtomicInteger(0);
     private final Map<Integer, File> files = new ConcurrentHashMap<>();
 
