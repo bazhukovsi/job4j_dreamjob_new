@@ -7,7 +7,7 @@ public class Vacancy {
     private int id;
     private String title;
     private  String description;
-    private LocalDateTime creationDate;
+    private LocalDateTime creationDate = LocalDateTime.now();
     private boolean visible;
     private int cityId;
 
