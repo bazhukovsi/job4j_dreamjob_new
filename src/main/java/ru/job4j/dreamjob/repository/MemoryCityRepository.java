@@ -22,4 +22,9 @@ public class MemoryCityRepository implements CityRepository {
         return cities.values();
     }
 
+    @Override
+    public City findById(int id) {
+        return cities.get(id);
+    }
+
 }

@@ -14,22 +14,22 @@ import java.util.concurrent.atomic.AtomicInteger;
 @Repository
 @ThreadSafe
 public class MemoryCandidateRepository implements CandidateRepository {
-    private AtomicInteger nextId = new AtomicInteger(1);
+    private final AtomicInteger nextId = new AtomicInteger(1);
     private final Map<Integer, Candidate> candidates = new HashMap<>();
 
     public MemoryCandidateRepository() {
         save(new Candidate(1, "Sergey Bazhukov", "Java Developer",
-                LocalDateTime.of(2023, 1, 15, 10, 0)));
+                LocalDateTime.of(2023, 1, 15, 10, 0), 0));
         save(new Candidate(2, "Sergey Bazhukov", "Java Developer",
-                LocalDateTime.of(2023, 1, 15, 10, 0)));
+                LocalDateTime.of(2023, 1, 15, 10, 0), 0));
         save(new Candidate(3, "Sergey Bazhukov", "Java Developer",
-                LocalDateTime.of(2023, 1, 15, 10, 0)));
+                LocalDateTime.of(2023, 1, 15, 10, 0), 0));
         save(new Candidate(4, "Sergey Bazhukov", "Java Developer",
-                LocalDateTime.of(2023, 1, 15, 10, 0)));
+                LocalDateTime.of(2023, 1, 15, 10, 0), 0));
         save(new Candidate(5, "Sergey Bazhukov", "Java Developer",
-                LocalDateTime.of(2023, 1, 15, 10, 0)));
+                LocalDateTime.of(2023, 1, 15, 10, 0), 0));
         save(new Candidate(6, "Sergey Bazhukov", "Java Developer",
-                LocalDateTime.of(2023, 1, 15, 10, 0)));
+                LocalDateTime.of(2023, 1, 15, 10, 0), 0));
     }
 
     @Override
@@ -47,7 +47,7 @@ public class MemoryCandidateRepository implements CandidateRepository {
     @Override
     public boolean update(Candidate candidate) {
         return candidates.computeIfPresent(candidate.getId(), (id, oldCandidate) -> new Candidate(oldCandidate.getId(), candidate.getName(),
-                candidate.getDescription(), candidate.getCreationDate())) != null;
+                candidate.getDescription(), candidate.getCreationDate(), candidate.getFileId())) != null;
     }
 
     @Override

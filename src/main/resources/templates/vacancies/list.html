@@ -56,7 +56,7 @@
                     </td>
                     <td th:text="${vacancy.id}"></td>
                     <td><a th:text="${vacancy.title}" th:href="@{/vacancies/{vacancyId}(vacancyId=${vacancy.id})}"></a></td>
-                    <td th:text="${vacancy.creationDate}"></td>
+                    <td th:text="${#temporals.format(vacancy.creationDate, 'dd-MM-yyyy HH:mm')}"></td>
                 </tr>
                 </tbody>
             </table>

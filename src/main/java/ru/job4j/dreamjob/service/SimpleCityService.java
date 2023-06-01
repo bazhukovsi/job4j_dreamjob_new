@@ -18,4 +18,9 @@ public class SimpleCityService implements CityService{
     public Collection<City> findAll() {
         return cityRepository.findAll();
     }
+
+    @Override
+    public City findById(int id) {
+        return cityRepository.findById(id);
+    }
 }
